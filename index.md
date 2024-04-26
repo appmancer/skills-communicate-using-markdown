@@ -25,16 +25,12 @@
      JSR tab
      LDA #&32
      JSR printhex
- .finish
-     RTS
- .screenmode
-     INCLUDE "../../lib/screenmode.asm"
- .printhex
-     INCLUDE "../../lib/printhex.asm"
- .tab
-     INCLUDE "../../lib/tab.asm"
  .end
 
  SAVE "MyCode", start, end
 
 ```
+- [ ] Complete GitHub training
+- [ ] get certifications
+- [ ] have a better life
+
